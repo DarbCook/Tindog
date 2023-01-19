@@ -1,0 +1,173 @@
+
+/* HTML Elements */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+p{
+    color:#8f8f8f
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title .container-fluid{
+    padding: 3% 18% 5%;
+}
+
+/* Color Scheme*/
+
+#title, #cta{
+    background-color: #ff4c68;
+}
+
+#testimonials, #press{
+    background-color: #ef8172;
+    color:#fff;
+}
+
+#features, #footer{
+    background-color: #fff;
+}
+
+.feature-icon{
+    color:#ef8172;
+}
+
+.feature-icon:hover{
+    color:#ff4c68;
+}
+
+
+/* Title Section */
+
+#title {
+  position:relative;
+  text-align: left;
+}
+
+.intro-h1{
+    font-size:3.5rem;
+    line-height:1.5;
+    color:white;
+    margin-bottom:3rem;
+}
+
+.navbar{
+    margin-bottom:4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size:2.5rem;
+    font-weight: 800;
+}
+
+.navbar-nav{
+    font-size:1.25rem;
+    padding-right:6.75rem;
+    margin-left:auto;
+   
+}
+
+.nav-link{
+    margin:0 0 0 3rem;
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+.intro-dog{
+    width:300px;
+    transform: rotate(25deg);
+    position:absolute;
+    z-index:0;
+    right:30%;
+}
+
+@media (max-width:1407px){
+    #intro-dog{
+        position:static;
+        transform: rotate(0);
+        z-index:1;
+
+    }
+    #title{
+        text-align: center;
+        z-index:1;
+
+    }
+}
+
+/* Features */
+
+#features{
+    position:relative;
+    z-index:1;
+}
+
+.feature-H3{
+    font-size:1.5rem;
+    color:#000;
+    margin-top:1.25rem;
+    margin-bottom:.5rem;
+}
+
+.feature-p{
+    padding-right:4rem;
+    padding-left:4rem;
+}
+
+/* Testimonials */
+
+.testimonial-text{
+    font-size: 3rem;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px 20px 0px;
+}
+
+.press-image{
+    width:15%;
+    margin:0px 20px 50px;
+}
+
+/* Pricing */
+
+.price-margin{
+    margin-bottom:7%;
+}
+
+.price-H2{
+    font-size:3rem;
+}
+
+/* CTA */
+
+.cta-H3{
+    font-size:3rem;
+    color:#fff;
+}
+
+/* Footer */
+
+.foot-p{
+    font-weight:500;
+}
+
+.foot-icon{
+    padding:1rem 0.5rem;
+}
