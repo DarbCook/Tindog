@@ -96,7 +96,7 @@ p{
 }
 
 @media (max-width:1407px){
-    #intro-dog{
+    .intro-dog{
         position:static;
         transform: rotate(0);
         z-index:1;
